@@ -3,16 +3,14 @@ language: node_js
 node_js:
   - lts/*
   - node
-  - 12
-  - 11
-  - 10
-  - 9
-  - 8
 
 os:
   - linux
 
 sudo: false
+
+cache:
+  npm
 
 notifications:
   email: false
