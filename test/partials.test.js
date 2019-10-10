@@ -10,6 +10,6 @@ describe('partials', () => {
     const plugin = lib()
     const partial = plugin.partial
 
-    expect(partial).toBe(path.join(root, '/lib/partials/*.hbs'))
+    expect(partial).toBe(path.join(root, '/lib/partials/**/*.hbs'))
   })
 })

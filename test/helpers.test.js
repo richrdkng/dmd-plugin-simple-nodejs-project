@@ -10,7 +10,7 @@ describe('helpers', () => {
     const plugin = lib()
     const helper = plugin.helper
 
-    expect(helper).toBe(path.join(root, '/lib/helpers/*.js'))
+    expect(helper).toBe(path.join(root, '/lib/helpers/**/*.js'))
   })
 
   test('generatedDate', () => {
