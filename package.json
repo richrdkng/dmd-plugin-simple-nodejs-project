@@ -1,0 +1,53 @@
+{
+  "name": "@richrdkng/dmd-plugin-simple-nodejs-project",
+  "version": "0.0.0-development",
+  "description": "A basic, opinionated dmd plugin for jsdoc-to-markdown to generate markdown API docs for simple Node.js projects.",
+  "author": "Richard King <richrdkng@gmail.com> (www.richrdkng.com)",
+  "license": "ISC",
+  "main": "./lib/index.js",
+  "homepage": "https://github.com/richrdkng/dmd-plugin-simple-nodejs-project#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richrdkng/dmd-plugin-simple-nodejs-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/richrdkng/dmd-plugin-simple-nodejs-project/issues"
+  },
+  "keywords": [
+    "doc",
+    "documentation",
+    "api",
+    "markdown",
+    "dmd",
+    "dmd-plugin",
+    "plugin",
+    "jsdoc",
+    "jsdoc-to-markdown",
+    "richrdkng",
+    "@richrdkng"
+  ],
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "standard": {
+    "envs": [
+      "jest"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "standard --verbose | snazzy",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/git": "^7.0.16",
+    "jest": "^24.9.0",
+    "semantic-release": "^15.13.24",
+    "snazzy": "^8.0.0",
+    "standard": "^14.3.1"
+  }
+}
