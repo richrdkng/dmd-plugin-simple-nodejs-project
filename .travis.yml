@@ -14,9 +14,6 @@ os:
 
 sudo: false
 
-cache:
-  npm
-
 notifications:
   email: false
 
